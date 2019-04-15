@@ -30,4 +30,3 @@
 ; new-ifではifを用いずcondで実装したため引数をすべて評価してしまう。
 ; 上記手続きでは、new-ifに作用させるためにsqrt-iterが無限に呼ばれスタックを圧迫する。(stack overflow)
 ; DrRacket Debuggerでステップ実行するとわかりやすい。
-
